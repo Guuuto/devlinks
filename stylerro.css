@@ -1,0 +1,42 @@
+body {
+  display: inline;
+}
+
+body h1 {
+  font-family: 'Roboto Slab', serif, 400;
+  text-align: center;
+  justify-content: center;
+}
+
+body h2 {
+  color: #332F2E;
+  font-family: 'Roboto Slab', serif, 300;
+  text-align: center;
+  justify-content: center;
+}
+
+#foto {
+  text-align: center;
+}
+
+#voltar {
+  display: flex;
+  font-size: 24px;
+
+  padding: 0px 0px 24px 0px;
+  justify-content: center;
+}
+
+#voltar a {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 4px;
+
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+#voltar a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
